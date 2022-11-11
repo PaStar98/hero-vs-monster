@@ -20,7 +20,7 @@ public class Monster {
         int attack;
 
         if (randomNumber > 50) {
-            attack = Attacks.weakAttack("Orc");
+            attack = Attacks.weakAttack("Monster");
         } else {
             attack = Attacks.strongAttack("Monster");
         }

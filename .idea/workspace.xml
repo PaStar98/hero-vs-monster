@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35efd5f5-8a37-4059-bb60-3846155d0e79" name="Changes" comment="remove: unnecessary classes">
-      <change afterPath="$PROJECT_DIR$/src/App/Attacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/RandomRange.java" afterDir="false" />
+    <list default="true" id="35efd5f5-8a37-4059-bb60-3846155d0e79" name="Changes" comment="Testing commit">
+      <change afterPath="$PROJECT_DIR$/src/App/Potions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Monster.java" afterDir="false" />
-    </list>
-    <list id="503476e2-5e57-478d-a21f-b5fcb7659526" name="Changes by Patryk" comment="Changes by Patryk">
-      <change afterPath="$PROJECT_DIR$/src/POC/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POC/MonsterOrc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POC/MonsterReaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POC/MonsterSpider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POC/Monsters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Monster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "extract.method.default.visibility": "private",
-    "jdk.selected.JAVA_MODULE": "11",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App.Game" />
@@ -105,7 +95,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/PaStar" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
