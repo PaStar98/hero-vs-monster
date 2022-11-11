@@ -1,4 +1,4 @@
-import java.util.concurrent.ThreadLocalRandom;
+package App;
 
 public class Monster {
     private static int hp = 100;
@@ -18,18 +18,12 @@ public class Monster {
         int randomNumber = (int) (Math.random() * range) + min;
 
         int attack;
-        boolean isStrong;
 
         if (randomNumber > 50) {
-            attack = Attacks.weakAttack();
-            isStrong = false;
-
+            attack = Attacks.weakAttack("Orc");
         } else {
-            attack = Attacks.strongAttack();
-            isStrong = true;
+            attack = Attacks.strongAttack("Monster");
         }
-
-        System.out.println("Monster attacked " + (isStrong ? "STRONG" : "WEAK") + " by " + attack);
 
         return attack;
     }

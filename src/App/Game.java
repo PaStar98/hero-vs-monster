@@ -1,3 +1,5 @@
+package App;
+
 import java.util.Scanner;
 
 public class Game {
@@ -13,17 +15,17 @@ public class Game {
 
 
         while (true) {
-            int playerWeakAtk = Attacks.weakAttack();
-            int playerStrongAtk = Attacks.strongAttack();
+            int userChoose = scanner.nextInt();
+//            int playerWeakAtk = Attacks.weakAttack();
+//            int playerStrongAtk = Attacks.strongAttack();
 
-            int option = scanner.nextInt();
-            if (option == 1) {
-                Monster.setHp(Monster.getHp() - playerWeakAtk);
-                System.out.println("You attacked by " + playerWeakAtk);
-                System.out.println("Monster life " + Monster.getHp());
-            } else if (option == 2) {
-                Monster.setHp(Monster.getHp() - playerStrongAtk);
-                System.out.println("You attacked by " + playerStrongAtk);
+            if (userChoose == 1) {
+                Monster.setHp(Monster.getHp() - Attacks.weakAttack("Piper Perri"));
+//                System.out.println("You attacked by " + playerWeakAtk);
+                System.out.println("Monster life " + Monster.getHp() + "\n");
+            } else if (userChoose == 2) {
+                Monster.setHp(Monster.getHp() - Attacks.strongAttack("Piper Perri"));
+//                System.out.println("You attacked by " + playerStrongAtk);
                 System.out.println("Monster life " + Monster.getHp() + "\n");
             } else {
                 System.out.println("You chose wrong option bloody bastard ;)");

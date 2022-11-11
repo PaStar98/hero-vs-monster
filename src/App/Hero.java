@@ -1,3 +1,5 @@
+package App;
+
 public class Hero {
     private static int hp = 100;
 
